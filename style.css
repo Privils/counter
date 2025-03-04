@@ -1,4 +1,6 @@
-
+body{
+    background: gray;
+}
 h1{
     text-align: center;
     font-size: 45px;
@@ -15,8 +17,9 @@ h1{
     width: 500px;
     height: 300px;
     border-radius: 8px;
-    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.3), -7px -5px 10px  rgba(0, 0, 0, 0.3);
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.5), -7px -5px 10px  rgba(0, 0, 0, 0.5);
    padding: 2vh 1.5vw;
+   background: rgba(245, 245, 245, 0.726);
 }
 p{
     text-align: center;
@@ -34,9 +37,10 @@ p{
     width: auto;
     padding: 8px;
     font-size: 25px;
-    border: 1px solid black;
+    border: 2px solid rgb(243, 243, 243);
     border-radius: 4px;
-    background: #ffff;
-    color: #000000;
+    background: #000000ba;
+    color: #ffffff;
     text-transform: capitalize;
+    cursor: pointer;
 }
